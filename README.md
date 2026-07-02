@@ -93,6 +93,8 @@ The starting point is implementing a formal **Reorder Point (ROP)** — so that 
 #### Reorder Point = (Average Daily Sales × Lead Time) + Safety Stock
 #### Assumed Lead Time: 6 days | Safety Stock: Minimum Stock Threshold
 
+
+
 ![image alt](https://github.com/Yashkumar018/ColdTrack-Dairy-Inventory-Risk-Analysis/blob/71089cc91062e336068b622870b34706962b5bf2/screenshorts/Optimization_Strategy.png)
 
 Beyond the reorder point, three interventions will close the remaining gaps:
@@ -129,4 +131,4 @@ The reorder point formula is only as good as the sales data feeding it. Daily tr
 
 ---
 
-*Prepared by Yash Kumar · BigQuery SQL · Power BI · Excel · 2026*
+*Prepared by Yash Kumar*
