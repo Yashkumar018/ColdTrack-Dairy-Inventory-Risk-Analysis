@@ -10,7 +10,7 @@ Locations sitting on excess inventory are holding products in cold storage well 
 
 This analysis was built to quantify both failures, trace them back to their root cause, and put forward a clear path to fix it.
 
-![Cover Page](screenshots/cover.png)
+![image alt](https://github.com/Yashkumar018/ColdTrack-Dairy-Inventory-Risk-Analysis/blob/71089cc91062e336068b622870b34706962b5bf2/screenshorts/cover_page.png)
 
 The analysis is structured across three dashboard pages:
 
@@ -50,7 +50,7 @@ Breaking it down by brand — **Amul (450) and Mother Dairy (372)** sit at the t
 
 Seasonally, expiry peaks in **October, July, and June** — right at the pressure points of the calendar. Pre-festival demand surges, summer peak periods — exactly when supply chains are stretched thin and cold-chain lapses are most likely to slip through.
 
-![Risk Overview](screenshots/risk_overview.png)
+![image alt](https://github.com/Yashkumar018/ColdTrack-Dairy-Inventory-Risk-Analysis/blob/71089cc91062e336068b622870b34706962b5bf2/screenshorts/risk_overview.png)
 
 **Key Insights:**
 
@@ -72,7 +72,7 @@ From a storage condition standpoint, **Refrigerated (715) and Frozen (561)** rec
 
 On the understock side, **32 restocking events** required 3 or more separate transport cycles to bring stock back to minimum threshold. Each of those extra trips is a cost with zero return.
 
-![Root Cause Analysis](screenshots/root_cause_analysis.png)
+![image alt](https://github.com/Yashkumar018/ColdTrack-Dairy-Inventory-Risk-Analysis/blob/71089cc91062e336068b622870b34706962b5bf2/screenshorts/root_cause_analysis.png)
 
 **Key Insights:**
 
@@ -89,10 +89,11 @@ On the understock side, **32 restocking events** required 3 or more separate tra
 The fix is not complex. The system just needs to stop being blind to demand.
 
 The starting point is implementing a formal **Reorder Point (ROP)** — so that stock replenishment is triggered at the right time based on actual consumption, not a fixed calendar:
-Reorder Point = (Average Daily Sales × Lead Time) + Safety Stock
-Assumed Lead Time: 6 days | Safety Stock: Minimum Stock Threshold
 
-![Optimization Strategy](screenshots/optimization_strategy.png)
+#### Reorder Point = (Average Daily Sales × Lead Time) + Safety Stock
+#### Assumed Lead Time: 6 days | Safety Stock: Minimum Stock Threshold
+
+![image alt](https://github.com/Yashkumar018/ColdTrack-Dairy-Inventory-Risk-Analysis/blob/71089cc91062e336068b622870b34706962b5bf2/screenshorts/Optimization_Strategy.png)
 
 Beyond the reorder point, three interventions will close the remaining gaps:
 
