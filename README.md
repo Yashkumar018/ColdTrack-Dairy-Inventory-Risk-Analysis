@@ -20,9 +20,9 @@ The analysis is structured across three dashboard pages:
 
 | Resource | Link |
 |---|---|
-| Interactive Power BI Dashboard | [Download here]() |
-| SQL Data Cleaning Queries | [View here]() |
-| SQL Analysis Report | [View here]() |
+| Interactive Power BI Dashboard | [Download here](https://github.com/Yashkumar018/ColdTrack-Dairy-Inventory-Risk-Analysis/blob/b0f25a41b8e88dbe3d5f8324e2aeaba297a8c9f9/ColdTrack%20Dairy%20Risk%20Analysis.pbix) |
+| SQL Data Cleaning Queries | [View here](https://github.com/Yashkumar018/ColdTrack-Dairy-Inventory-Risk-Analysis/blob/b0f25a41b8e88dbe3d5f8324e2aeaba297a8c9f9/Sql%20queries/coldtrack_cleaning_queries.sql) |
+| SQL Analysis Report | [Download here](https://github.com/Yashkumar018/ColdTrack-Dairy-Inventory-Risk-Analysis/blob/b0f25a41b8e88dbe3d5f8324e2aeaba297a8c9f9/Sql%20queries/ColdTrack_SQL_Analysis.docx) |
 
 ---
 
@@ -34,7 +34,7 @@ The dataset contains key operational fields — `reorder_quantity`, `minimum_sto
 
 Prior to beginning the analysis, a full round of data quality checks was conducted — covering null values, duplicate records, inconsistent categorical labels, negative quantity entries, price outliers, and mixed date formats.
 
-Both the raw and cleaned versions of the dataset are available for download **[here]()**.
+Both the raw and cleaned versions of the dataset are available for download **[here](https://github.com/Yashkumar018/ColdTrack-Dairy-Inventory-Risk-Analysis/tree/b0f25a41b8e88dbe3d5f8324e2aeaba297a8c9f9/Data)**.
 
 ---
 
