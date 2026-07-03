@@ -30,7 +30,7 @@ The analysis is structured across three dashboard pages:
 
 The dataset contains key operational fields — `reorder_quantity`, `minimum_stock_threshold`, `brand`, `shelf_life_days`, `storage_condition`, `delivery_gap`, and `deliver_window_expiry` — across **4,325 records** spanning 11 dairy brands and multiple storage conditions.
 
-<img width="896" height="1200" alt="Image" src="https://github.com/user-attachments/assets/27ebd609-8559-4e89-b2e3-aa0ff3d43a77" />
+<img width="450" height="500" alt="Image" src="https://github.com/user-attachments/assets/e5cfacb5-efce-419a-9203-3ac3676feb7e" />
 
 Prior to beginning the analysis, a full round of data quality checks was conducted — covering null values, duplicate records, inconsistent categorical labels, negative quantity entries, price outliers, and mixed date formats.
 
